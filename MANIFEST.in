@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lone_moon *.css
+recursive-include lone_moon *.csv
+recursive-include lone_moon *.html
+recursive-include lone_moon *.ico
+recursive-include lone_moon *.js
+recursive-include lone_moon *.json
+recursive-include lone_moon *.md
+recursive-include lone_moon *.png
+recursive-include lone_moon *.py
+recursive-include lone_moon *.svg
+recursive-include lone_moon *.txt
+recursive-exclude lone_moon *.pyc
